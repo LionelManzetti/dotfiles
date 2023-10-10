@@ -33,7 +33,7 @@
 [help]
         autocorrect = 1
 [commit]
-	template = /Users/bart/.dotfiles/git/git_commit_msg.txt
+	template = /Users/lionelmanzetti/.dotfiles/git/git_commit_msg.txt
 [color]
         ui = always
 [color "branch"]
@@ -49,3 +49,7 @@
         added = green bold
         changed = yellow bold
         untracked = red bold
+[credential]
+	helper = osxkeychain
+[init]
+	defaultBranch = master
